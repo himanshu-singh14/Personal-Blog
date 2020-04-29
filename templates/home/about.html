@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %} About{% endblock title %}
+{% block aboutactive %}active{% endblock aboutactive %}
+{% block body %} 
+{% load static %}
+ <div class="container-fluid bg-1 text-center">
+    <h3>Who Am I ?</h3>
+    <img src="{% static 'home/himanshu.jpg' %}" class="rounded-circle w-25" alt="Photo">
+    <h3>I'm an adventurer</h3>
+  </div>
+
+<div class="container-fluid bg-2 text-center">
+  <h3>What Am I ?</h3>
+  <b>I am Himanshu Singh and Currently pursuing B.Tech from JECRC, Jaipur.<br> I am decent Django Developer who make this blog and know Some basic Concept of Maching Learning.</b>
+</div>
+
+{% endblock body %}
